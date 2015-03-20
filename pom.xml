@@ -53,7 +53,7 @@
 		<dependency>
 			<groupId>com.perfectomobile</groupId>
 			<artifactId>pm-selenium</artifactId>
-			<version>3.9.00</version>
+			<version>3.9.0.000</version>
 		</dependency>
 		<dependency>
 			<groupId> com.perfectomobile </groupId>
