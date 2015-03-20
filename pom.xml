@@ -53,12 +53,10 @@
 		<dependency>
 			<groupId>com.perfectomobile</groupId>
 			<artifactId>pm-selenium</artifactId>
-			<version>3.9.0.000</version>
 		</dependency>
 		<dependency>
 			<groupId> com.perfectomobile </groupId>
 			<artifactId>http-client</artifactId>
-			<version>3.9.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>dom4j</groupId>
