@@ -51,14 +51,15 @@ public class TestNGUnitedTest {
 		InputStream reportStream = ((IMobileDriver) driver).downloadReport(MediaType.HTML);
 
 		if (reportStream != null) {
-			File reportFile = new File(Constants.REPORT_LIB+"TestNG_"+_Device+".HTML");
-			FileUtils.write(reportStream, reportFile);
-			Reporter.log( Constants.REPORT_LIB+"TestNG_"+_Device+".HTML");
+			try {
+				File reportFile = new File(Constants.REPORT_LIB+"TestNG_"+_Device+".HTML");
+				FileUtils.write(reportStream, reportFile);
+				Reporter.log( Constants.REPORT_LIB+"TestNG_"+_Device+".HTML");
 
-			String filename =Constants.REPORT_LIB+"TestNG_"+_Device+".HTML"  ;
+				String filename =Constants.REPORT_LIB+"TestNG_"+_Device+".HTML"  ;
 			//	Reporter.log("</br><b>Report:</b> <a href=" + filename +">Report</a>");
 
-			try {
+		
 				BufferedReader br = new BufferedReader(new FileReader(filename));
 
 				StringBuilder sb = new StringBuilder();
