@@ -87,7 +87,6 @@ public class TestNGUnitedTest {
 	        return new Object[][] { { "Android", "0149BCA71700D01F" }, 
 	        			{ "Android", "57AF4ED9" } ,
 	        			{"Iphone","71EDDAE8C07850B0A910F2CF9E69A93095B996DA"},
-	        			{"iphone","39F3DA5531ADBE2A05CFF4D65E43A2C38D3D595A"}
 	        };
 	    }
 	 
