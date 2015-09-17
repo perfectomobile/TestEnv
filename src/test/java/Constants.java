@@ -23,7 +23,8 @@ public class Constants
 
 	public static final String PM_CLOUD = "demo.perfectomobile.com";
 	
-	public static final String REPORT_LIB = "c:\\test\\";
+//	public static final String REPORT_LIB = "c:\\test\\";
+	public static final String REPORT_LIB = ".\";
 
 }
 
