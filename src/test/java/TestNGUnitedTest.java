@@ -52,6 +52,9 @@ public class TestNGUnitedTest {
 
 		if (reportStream != null) {
 			try {
+				
+				File theDir = new File(Constants.REPORT_LIB);
+				if (!theDir.exists()) theDir.mkdir();
 				File reportFile = new File(Constants.REPORT_LIB+"TestNG_"+_Device+".HTML");
 				FileUtils.write(reportStream, reportFile);
 				Reporter.log( Constants.REPORT_LIB+"TestNG_"+_Device+".HTML");
