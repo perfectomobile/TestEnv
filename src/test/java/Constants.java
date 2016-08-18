@@ -18,7 +18,7 @@ public class Constants
 	public static final String REPOSITORY_KEY = "PRIVATE:uziHTTPTest/"+APP_NAME;
 
 //	public static final String PM_USER = "uzie@perfectomobile.com";
-	public static final String PM_PASSWORD = "@Perfecto1";
+	public static final String PM_PASSWORD = "PM2563";
 	public static final String PM_USER = "uzie@perfectomobile.com";
 
 	public static final String PM_CLOUD = "demo.perfectomobile.com";
