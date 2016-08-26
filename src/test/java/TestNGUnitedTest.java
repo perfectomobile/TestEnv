@@ -88,8 +88,10 @@ public class TestNGUnitedTest {
 
 	 @DataProvider(name = "Devices" , parallel = true)
 	    public Object[][] testSumInput() {
-	        return new Object[][] { { "Android", "C18641DD" } ,
-	        			{"Iphone","E20DE68F3D3554B90AB5503E57A28BE0270AF70D"}
+	        return new Object[][] { { "Android", "65256B3C" } ,
+	        			 { "Android", "04157DF4C454EC06" } ,
+	        			{"Iphone","DD992AFA0B69A5E2C2006A7A657690476B0086FE"},
+	        			{"Iphone","FD9F4CC08F6E4637ADC5D3443193978D7B8E4942"}
 	        		
 	        };
 	    }
